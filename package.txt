@@ -1,1 +1,1 @@
-com.nbi.myapp
+com.example.newpackae
