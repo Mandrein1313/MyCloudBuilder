@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "com.gnv.ide"
+    namespace "com.example.myapp"
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.gnv.ide"
+        applicationId "com.example.myapp"
         minSdk 21
         targetSdk 33
         versionCode 1
