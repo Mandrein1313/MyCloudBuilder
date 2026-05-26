@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+	
+    <item
+        android:id="@+id/action_build"
+        android:title="Build APK"
+        android:icon="@drawable/ic_play_run"
+        app:showAsAction="ifRoom"
+        app:iconTint="@null" /> <!-- 🟢 เพิ่มบรรทัดนี้เข้าไปเพื่อปิดการย้อมสีอัตโนมัติครับ -->
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search" 
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_undo"
+        android:title="Undo"
+        app:showAsAction="never" />
+        
+    <item
+        android:id="@+id/action_redo"
+        android:title="Redo"
+        app:showAsAction="never" />
+
+</menu>
